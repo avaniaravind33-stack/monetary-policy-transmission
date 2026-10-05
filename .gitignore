@@ -1,0 +1,23 @@
+# Raw price cache (can be large; regenerated with download_all(force_refresh=True))
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files (generated; not source truth)
+outputs/*.xlsx
+outputs/*.csv
